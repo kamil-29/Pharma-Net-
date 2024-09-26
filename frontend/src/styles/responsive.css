@@ -1,0 +1,42 @@
+@media (max-width: 756px) {
+  .carRent_header {
+    padding: 10px 0px;
+  }
+  .banner_section .heading {
+    font-size: 43px;
+    font-weight: bold;
+  }
+  .slide {
+    max-height: calc(30vh);
+    min-height: calc(30vh);
+    border-radius: 15px;
+    overflow: hidden;
+    /* background-color: red; */
+  }
+  body {
+    background-color: var(--white) !important;
+  }
+  .steper_wrapper .step-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 15px;
+  }
+  .steper_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .step-seprator {
+    height: 1px;
+    background-color: #dfdfdf;
+    display: none;
+    flex: 1;
+  }
+  /* .au-box{
+       box-shadow: unset;
+    } */
+}
